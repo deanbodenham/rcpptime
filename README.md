@@ -4,9 +4,10 @@ A quick comparison between Rcpp and R implementations for the following algorith
 - fibonacci
 - pisum
 - sum (naive implementation, for loop adding up terms in a vector)
-- sum (R's `sum` function)
+- sum (R's sum function)
 
-- Ideas for benchmarks from [julialang.org](http://julialang.org/)
+
+Ideas for benchmarks from [julialang.org](http://julialang.org/)
 
 ## Requirements:
 - `microbenchmark` R package, available [on CRAN](https://CRAN.R-project.org/package=microbenchmark)
